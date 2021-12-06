@@ -1,0 +1,33 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--bs-gray-900);
+    color: var(--bs-white);
+}
+
+.left {
+    background-color: var(--bs-gray-100);
+    color: var(--bs-gray-900);
+    overflow-y: scroll;
+}
+
+.right {
+    background-color: var(--bs-gray-500);
+    color: var(--bs-gray-900);
+    overflow-y: scroll;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    font-size: 15px;
+}
+
+.lyricPT, .lyricEN {
+    display: block;
+    white-space: pre;
+}
